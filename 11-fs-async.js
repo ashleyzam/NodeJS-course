@@ -13,7 +13,8 @@ readFile("./content/first.txt", "utf-8", (err, result) => {
     writeFile(
       "./content/result-async.txt",
       `here is the result ${first}, ${second}`,
-      (err, result) => {
+      { flag: "a" },
+      (err) => {
         err ? console.log(err) : console.log("done whit this task!");
       }
     );
