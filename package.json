@@ -19,5 +19,8 @@
   "homepage": "https://github.com/ashleyzam/node-js-intro#readme",
   "dependencies": {
     "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
   }
 }
