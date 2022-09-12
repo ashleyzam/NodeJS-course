@@ -41,3 +41,14 @@ const _ = require("lodash");
 const items = [1, [2, [3, [4]]]];
 const newItems = _.flattenDeep(items);
 console.log(newItems);
+console.log("hello");
+/* 
+nodemon config automaticamente reinicia la app y corre los logs 
+sin tener que estar ejecutando siempre node appjs, 
+cambiamos el script de package.json para que esto suceda:
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  previo a instalar npm i nodemon -D
+*/
