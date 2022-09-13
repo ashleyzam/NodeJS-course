@@ -51,4 +51,5 @@ cambiamos el script de package.json para que esto suceda:
     "dev": "nodemon app.js"
   },
   previo a instalar npm i nodemon -D
+  para desinstalar  npm uninstall package name
 */

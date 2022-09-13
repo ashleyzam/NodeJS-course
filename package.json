@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/ashleyzam/node-js-intro#readme",
   "dependencies": {
+    "bootstrap": "^5.2.1",
     "lodash": "^4.17.21"
   },
   "devDependencies": {
