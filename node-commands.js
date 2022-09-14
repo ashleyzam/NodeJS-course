@@ -58,4 +58,5 @@ El package-lock.json guarda todas las versiones especificas de todos los paquete
 no solo los de las dependencias. Esto es necesario, ya que si no, nuestro proyecto
 quedaría obsoleto para otras personas que quizás quieran usarlo.
 + info: https://nodesource.com/blog/the-basics-of-package-json
+de ahora en mas solo usaremos como comando para visualizar y actualizar la app: nodemon
 */
