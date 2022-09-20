@@ -15,9 +15,21 @@ const start = async () => {
   }
 };
 start();
-// getText("./content/first.txt")
+//custom option
+// const getText = (path) => {
+//   return new Promise((resolve, reject) => {
+//     readFile(path, 'utf8', (err, data) => {
+//       if (err) {
+//         reject(err)
+//       } else {
+//         resolve(data)
+//       }
+//     })
+//   })
+// }
+// getText('./content/first.txt')
 //   .then((result) => console.log(result))
-//   .catch((err) => console.log(err));
+//   .catch((err) => console.log(err))
 
 //node's option
 
