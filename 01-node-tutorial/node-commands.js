@@ -52,6 +52,8 @@ cambiamos el script de package.json para que esto suceda:
   },
   previo a instalar npm i nodemon -D
   para desinstalar  npm uninstall package name
+  npm run dev
+  nodemon app.js
 */
 /*
 El package-lock.json guarda todas las versiones especificas de todos los paquetes, 
